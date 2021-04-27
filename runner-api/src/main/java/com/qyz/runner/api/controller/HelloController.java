@@ -1,6 +1,5 @@
 package com.qyz.runner.api.controller;
 
-
 import com.qyz.runner.core.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

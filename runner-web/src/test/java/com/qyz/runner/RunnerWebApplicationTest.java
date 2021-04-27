@@ -1,11 +1,11 @@
-package com.azthink.runner;
+package com.qyz.runner;
 
-import com.azthink.runner.core.domain.Customer;
-import com.azthink.runner.core.domain.Manager;
-import com.azthink.runner.core.domain.Order;
-import com.azthink.runner.core.service.CustomerService;
-import com.azthink.runner.core.service.ManagerService;
-import com.azthink.runner.core.service.OrderService;
+import com.qyz.runner.core.domain.Customer;
+import com.qyz.runner.core.domain.Manager;
+import com.qyz.runner.core.domain.Order;
+import com.qyz.runner.core.service.CustomerService;
+import com.qyz.runner.core.service.ManagerService;
+import com.qyz.runner.core.service.OrderService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -36,7 +36,7 @@ public class RunnerWebApplicationTest {
         //普通顾客
         Customer customer = new Customer();
         customer.setUsername("1001");
-        customer.setNickname("顾客1");
+        customer.setNickname("钱多多");
         customer.setPassword("123456");
         customer.setMobile("13902326789");
         Customer customerResult = customerService.register(customer);
@@ -54,7 +54,7 @@ public class RunnerWebApplicationTest {
         //管理员
         Manager manager = new Manager();
         manager.setUsername("admin");
-        manager.setNickname("后台管理员");
+        manager.setNickname("钱宇展1604220433");
         manager.setPassword("123456");
         manager.setMobile("123456789");
         Manager managerResult = managerService.create(manager);

@@ -76,7 +76,7 @@
                 <th>申请状态</th>
                 <th>手机号码</th>
                 <th>注册时间</th>
-
+                <th>操作</th>
 
             </tr>
             </thead>
@@ -105,7 +105,10 @@
 
                 <td th:text="${customer.mobile}">#</td>
                 <td th:text="${#dates.format(customer.registTime,'yyyy-MM-dd HH:mm:ss')}"></td>
+                <td>
 
+
+                </td>
             </tr>
             </tbody>
         </table>
